@@ -16,3 +16,21 @@
 
 
 ### 第一阶段  登录
+
+#使用
+
+## 获取代码到 GOPATH
+```shell
+    cd $GOPATH/src
+    git clone https://github.com/wangtxxl/antd-admin-golang.git
+```
+
+## config 下配置数据库
+
+## 前段编译
+```shell
+    cd webapp
+    npm install
+    npm run build
+```
+##go编译 入口main.go  启动就ok

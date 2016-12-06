@@ -3,11 +3,11 @@
         "port":"9999"
     },
     "mysql":{
-        "host":"127.0.0.1",
-        "user":"root",
+        "host":"118.178.126.68",
+        "user":"wsc",
         "port":"3306",
-        "password":"",
-        "database":""
+        "password":"wsc123456",
+        "database":"antd_admin"
     },
     "mongodb":{
 

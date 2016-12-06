@@ -26,4 +26,6 @@ func init() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	db.AutoMigrate(&User{})
+
 }

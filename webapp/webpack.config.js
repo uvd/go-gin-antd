@@ -1,6 +1,12 @@
 const webpack = require('atool-build/lib/webpack');
+const path = require("path")
 
 module.exports = function(webpackConfig, env) {
+ 
+  //设置编译输出的路径
+  webpackConfig.output.path = path.join(__dirname, '../public');
+ 
+ 
   webpackConfig.babel.plugins.push('transform-runtime');
 
   // Support hmr
