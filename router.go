@@ -7,5 +7,4 @@ import (
 func initRouter() *mux.Router {
 	mux := mux.NewRouter()
 	return mux
-
 }
